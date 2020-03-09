@@ -8,15 +8,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FSISSystem.ENTITIES
 {
-    [Table("Player")]
-    public class Player
+    [Table("Team")]
+    public class Team
     {
         public int PlayerID { get; set; }
-        public int GuardianID { get; set; }
-        public int TeamID { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public int Age { get; set; }
-        public char Gender { get; set; }
+        public string RegionDescription { get; set; }
     }
 }

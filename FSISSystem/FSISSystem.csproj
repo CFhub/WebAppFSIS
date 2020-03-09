@@ -53,7 +53,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\FSISContext.cs" />
+    <Compile Include="ENTITIES\Guardian.cs" />
     <Compile Include="ENTITIES\Player.cs" />
+    <Compile Include="ENTITIES\Team.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
