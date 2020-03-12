@@ -14,6 +14,6 @@ namespace FSISSystem.DAL
         {
 
         }
-        public DbSet<Player> Players { get; set; }
+        public DbSet<Team> Teams { get; set; }
     }
 }

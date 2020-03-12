@@ -14,8 +14,8 @@ namespace FSISSystem.ENTITIES
         public int GuardianID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int EmergencyPhoneNumber { get; set; }
-        public int EmailAddress { get; set; }
+        public char EmergencyPhoneNumber { get; set; }
+        public string EmailAddress { get; set; }
     }
     
 }

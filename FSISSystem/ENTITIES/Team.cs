@@ -11,7 +11,7 @@ namespace FSISSystem.ENTITIES
     [Table("Team")]
     public class Team
     {
-        public int PlayerID { get; set; }
-        public string RegionDescription { get; set; }
+        public int TeamID { get; set; }
+        public string TeamName { get; set; }
     }
 }
