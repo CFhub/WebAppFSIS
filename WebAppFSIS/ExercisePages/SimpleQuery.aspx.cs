@@ -23,7 +23,7 @@ namespace WebAppFSIS.ExercisePages
         {
             if (string.IsNullOrEmpty(TeamIDArg.Text))
             {
-                MessageLabel.Text = "Enter a region id value.";
+                MessageLabel.Text = "Enter a team id value.";
             }
             else
             {
